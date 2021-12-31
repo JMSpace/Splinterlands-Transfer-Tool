@@ -22,7 +22,20 @@ Configuration config file
 Just run the exe file on your machine.  
 
 # Configuratin
+Download and unzip transfer.zip and find the config folder
 
+## config.txt
+- `MAIN_ACCOUNT=` MAIN_ACCOUNT will receive the assets of all accounts in the account.txt file.
+- `CLAIM_SPS=true` Disable/Enable(false/true) sps claiming.
+- `TRANSFER_SPS=true` Disable/Enable(false/true) sps transfer.
+- `TRANSFER_DEC=true` Disable/Enable(false/true) dec transfer.
+- `KEEP_DEC_ON_ACCOUNT_NUMBER=10` Fill in any integer greater than 0, and this number will be kept in the account.
+- `TRANSFER_CARDS=true` Disable/Enable(false/true) cards transfer.
+- `USERNAME=` If you have many accounts [Discord](https://discord.gg/TBsqYxeJqw)
+- `USERKEY=` If you have many accounts [Discord](https://discord.gg/TBsqYxeJqw)
+- `SPLINTERLANDS_API_URL=` Don't edit this content
+## accounts.txt
+-  Add an account in the format of `Account Name:Posting Key:Active Key` per line 
 
 # Donation 
 Event the tool it taking some donations, there is an option to help me more:  
